@@ -1,0 +1,18 @@
+public class Main {
+
+  public static void main(String[] args) {
+    Coche micoche = new Coche();
+    micoche.MasPuertas();
+   
+    System.out.println(micoche.puertas);
+  }
+}
+  
+  class Coche {
+  	public int puertas = 2;
+    
+    public void MasPuertas() {
+    this.puertas++;
+    }
+    
+  }
